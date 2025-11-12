@@ -1,4 +1,4 @@
-# Ghana-QA: Curating Question-Answer Pairs from Ghanaian News
+# Ghana-QA
 
 ## Project Description
 
