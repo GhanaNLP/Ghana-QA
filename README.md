@@ -1,2 +1,2 @@
 # Ghana-QA
-Using LLMs to curate questions and answers from Ghanain news
+Curating questions and answers from Ghanaian news articles.
