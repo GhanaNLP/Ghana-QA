@@ -20,7 +20,7 @@ To reach this ambitious target, we need volunteers to help process the raw artic
 
 - **Python 3.8+**
 - **Nvidia Build API Key:** Required for generating content. Get one from [NVIDIA NIM](https://build.nvidia.com/).
-- **Input Data:** A CSV file with a column named `content` containing the raw article text. The input dataset will be provided by Ghana NLP.
+- **Input Dataset:** The input dataset will be provided by Ghana NLP.
 
 ### 2. Request Data
 
