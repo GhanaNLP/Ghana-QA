@@ -48,7 +48,7 @@ Run these commands in your terminal:
 3. **Run the Script:**
 
    ```
-   python generateQA.py
+   python3 generateQA.py
    ```
 
 The script will prompt you to enter your Nvidia API key and also to select the input dataset.
