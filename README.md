@@ -26,7 +26,7 @@ To reach this ambitious target, we need volunteers to help process the raw artic
 
 **The input dataset must be requested before you can run the script.**
 
-Please email **michsethowusu@gmail.com** and state how many hours you can dedicate to running the code. We will provide the corresponding input dataset.
+Please email michsethowusu@gmail.com and state how many hours you can dedicate to running the code. We will provide the corresponding input dataset.
 
 ## Usage Guide
 
