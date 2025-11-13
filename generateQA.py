@@ -5,6 +5,7 @@ import random
 from datetime import datetime
 from dotenv import load_dotenv, set_key, find_dotenv
 import requests
+from tkinter import Tk, filedialog
 
 # ------------------------
 # Setup environment file
@@ -29,9 +30,27 @@ if not API_KEY:
 
 if not INPUT_PATH:
     print("\n📁 No input CSV file path found.")
-    INPUT_PATH = input("Please enter the full path to your input CSV file: ").strip()
+    print("Opening file picker dialog...")
+    
+    # Create a hidden Tkinter root window
+    root = Tk()
+    root.withdraw()  # Hide the main window
+    root.attributes('-topmost', True)  # Bring dialog to front
+    
+    # Open file picker dialog
+    INPUT_PATH = filedialog.askopenfilename(
+        title="Select your input CSV file",
+        filetypes=[("CSV files", "*.csv"), ("All files", "*.*")]
+    )
+    
+    root.destroy()  # Close the Tkinter instance
+    
+    if not INPUT_PATH:
+        raise ValueError("No file was selected. Exiting.")
+    
     if not os.path.exists(INPUT_PATH):
         raise FileNotFoundError(f"The file '{INPUT_PATH}' does not exist.")
+    
     set_key(env_path, "INPUT_PATH", INPUT_PATH)
 
 # ------------------------
