@@ -35,7 +35,7 @@ Run these commands in your terminal:
 1. **Clone the Repository:**
 
    ```
-   git clone [https://github.com/GhanaNLP/Ghana-QA.git](https://github.com/GhanaNLP/Ghana-QA.git)
+   git clone https://github.com/GhanaNLP/Ghana-QA.git
    cd Ghana-QA
    ```
 
