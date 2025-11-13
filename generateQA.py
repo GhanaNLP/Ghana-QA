@@ -58,7 +58,7 @@ if not INPUT_PATH:
 # ------------------------
 MODEL_NAME = "mistralai/mistral-medium-3-instruct"
 INVOKE_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "output_qa.csv")
+OUTPUT_PATH = os.path.join(os.getcwd(), "output_qa.csv")
 BATCH_SIZE = 40
 MAX_RETRIES = 5
 INITIAL_RETRY_DELAY = 5
@@ -72,15 +72,18 @@ headers = {
 }
 
 print(f"\n✅ Using NVIDIA Build API with model: {MODEL_NAME}")
-print(f"📄 Input file: {INPUT_PATH}")
-print(f"💾 Output file will be saved as: {OUTPUT_PATH}")
+print(f"📄 Input file selected: {INPUT_PATH}")
+print(f"⏳ Validating and loading input file...")
 
 # ------------------------
 # Load data
 # ------------------------
 df = pd.read_csv(INPUT_PATH)
 total_rows = len(df)
-print(f"Total rows in input file: {total_rows:,}")
+print(f"✅ File validated successfully!")
+print(f"📊 Total rows in input file: {total_rows:,}")
+print(f"💾 Output will be saved in this folder: {os.getcwd()}")
+print(f"ℹ️  Note: If interrupted, simply run the script again to resume from where it stopped")
 
 # ------------------------
 # Resume logic
