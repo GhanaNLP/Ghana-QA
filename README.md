@@ -12,7 +12,7 @@ We aim to create the largest, highest-quality Ghanaian QA dataset that can be tr
 
 ### Volunteer Contribution
 
-To reach this ambitious target, we need volunteers to help process the raw articles. We are seeking at least **50 dedicated volunteers** willing to run the code for **6+ hours** each.
+To reach this ambitious target, we need volunteers to help process the raw articles. We are seeking at least **50 dedicated volunteers** willing to run the code for **20+ hours** each.
 
 ## Prerequisites
 
