@@ -78,7 +78,12 @@ print(f"⏳ Validating and loading input file...")
 # ------------------------
 # Load data
 # ------------------------
-df = pd.read_csv(INPUT_PATH, encoding="latin1", engine="python", on_bad_lines="skip")
+df = pd.read_csv(
+    INPUT_PATH,
+    encoding="latin1",
+    engine="python",        # more flexible parser
+    on_bad_lines="skip"     # skip rows with the wrong number of columns
+)
 
 total_rows = len(df)
 print(f"✅ File validated successfully!")
