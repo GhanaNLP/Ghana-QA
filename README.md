@@ -10,11 +10,20 @@ The script uses the **Nvidia Build API** (specifically the `mistral-medium-instr
 
 We aim to create the largest, highest-quality Ghanaian QA dataset that can be translated to several Ghanaian languages. Our target is 10,000,000.
 
-### Volunteer Contribution
+### Volunteers Needed
 
 To reach this ambitious target, we need volunteers to help process the raw articles. We are seeking at least **50 dedicated volunteers** willing to run the code for **20+ hours** each.
 
-## Prerequisites
+## Project Progress
+We have now reached 400,000 QA pairs thanks to the following awesome contributors:
+
+| Name | QA pairs |
+|------|------------|
+| [Mich-Seth Owusu](https://www.linkedin.com/in/mich-seth-owusu/) | 400,000 |
+| [Gerhardt Datsomor](https://www.linkedin.com/in/gerhardt-datsomor/) | 100,000 |
+
+
+## How to contribute
 
 ### 1. Requirements
 
