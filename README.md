@@ -21,6 +21,7 @@ We have now reached 400,000 QA pairs thanks to the following awesome contributor
 |------|------------|
 | [Mich-Seth Owusu](https://www.linkedin.com/in/mich-seth-owusu/) | 400,000 |
 | [Gerhardt Datsomor](https://www.linkedin.com/in/gerhardt-datsomor/) | 100,000 |
+| [Priscilla (Naadu) Lartey](https://www.linkedin.com/in/larteypriscilla/) | 14,150 |
 
 
 ## How to contribute
