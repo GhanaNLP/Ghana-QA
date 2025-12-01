@@ -17,11 +17,11 @@ To reach this ambitious target, we need volunteers to help process the raw artic
 ## Project Progress
 We have now reached 400,000 QA pairs thanks to the following awesome contributors:
 
-| Name | QA pairs |
+| Name | QA pairs Contributed |
 |------|------------|
-| [Mich-Seth Owusu](https://www.linkedin.com/in/mich-seth-owusu/) | 400,000 |
+| [Mich-Seth Owusu](https://www.linkedin.com/in/mich-seth-owusu/) | 989,200 |
+| [Priscilla (Naadu) Lartey](https://www.linkedin.com/in/larteypriscilla/) | 115,560 |
 | [Gerhardt Datsomor](https://www.linkedin.com/in/gerhardt-datsomor/) | 100,000 |
-| [Priscilla (Naadu) Lartey](https://www.linkedin.com/in/larteypriscilla/) | 14,150 |
 
 
 ## How to contribute
