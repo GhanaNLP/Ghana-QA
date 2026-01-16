@@ -15,13 +15,14 @@ We aim to create the largest, highest-quality Ghanaian QA dataset that can be tr
 To reach this ambitious target, we need volunteers to help process the raw articles. We are seeking at least **50 dedicated volunteers** willing to run the code for **20+ hours** each.
 
 ## Project Progress
-We have now reached 1,204,760 QA pairs thanks to the following awesome contributors:
+We have now reached 1,304,760 QA pairs thanks to the following awesome contributors:
 
 | Name | QA pairs Contributed |
 |------|------------|
 | [Mich-Seth Owusu](https://www.linkedin.com/in/mich-seth-owusu/) | 989,200 |
 | [Priscilla (Naadu) Lartey](https://www.linkedin.com/in/larteypriscilla/) | 115,560 |
 | [Gerhardt Datsomor](https://www.linkedin.com/in/gerhardt-datsomor/) | 100,000 |
+| [Alidu Abubakari](https://www.linkedin.com/in/alidu-abubakari-2612bb57/) | 100,000 |
 
 
 ## How to contribute
